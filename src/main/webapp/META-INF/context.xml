@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource name="jdbc/postgresPoolCon"
+              auth="Container"
+              type="javax.sql.DataSource"
+              username="postgres"
+              password="postgres"
+              driverClassName="org.postgresql.Driver"
+              url="jdbc:postgresql://localhost:5432/beauty_pr?autoReconnect=true"
+              validationQuery="select 1"
+              maxActive="10"
+              maxIdle="4"/>
+
+
+</Context>
